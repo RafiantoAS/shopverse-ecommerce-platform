@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>ShopVerse Ecommerce</title>
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header>
+      <!-- TOPBAR -->
+      <div class="topbar">
+        <div class="top-left">
+          <a href="seller-center.html" class="top-link"> Seller Center </a>
+
+          <!-- DOWNLOAD APP -->
+          <div class="download-wrapper">
+            <button id="downloadBtn" class="download-btn">
+              📱 Download App
+            </button>
+
+            <!-- DOWNLOAD POPUP -->
+            <div class="download-popup" id="downloadPopup">
+              <div class="download-header">
+                <h3>Download ShopVerse App</h3>
+
+                <button id="closeDownload">✕</button>
+              </div>
+
+              <!-- PHONE IMAGE -->
+              <div class="download-phone">
+                <img
+                  src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=1200&auto=format&fit=crop"
+                  alt="App"
+                />
+              </div>
+
+              <!-- CONTENT -->
+              <div class="download-content">
+                <h2>Shopping Faster On Mobile 🚀</h2>
+
+                <p>
+                  Get exclusive discounts, faster checkout, order tracking, and
+                  special app-only offers.
+                </p>
+
+                <!-- QR -->
+                <div class="qr-box">
+                  <img
+                    src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://shopverse.com"
+                    alt="QR Code"
+                  />
+                </div>
+
+                <!-- STORE BUTTONS -->
+                <div class="store-buttons">
+                  <button class="store-btn">🍎 App Store</button>
+
+                  <button class="store-btn">▶ Google Play</button>
+                </div>
+
+                <!-- RATING -->
+                <div class="app-rating">⭐ 4.9 Rating • 1M+ Downloads</div>
+              </div>
+            </div>
+          </div>
+
+          <a href="customer-service.html" class="top-link">
+            Customer Service
+          </a>
+        </div>
+
+        <div class="top-right">
+          <div class="notification-wrapper">
+            <button id="notificationBtn" class="notification-btn">
+              🔔 Notifications
+
+              <span class="notification-badge"> 4 </span>
+            </button>
+
+            <!-- NOTIFICATION POPUP -->
+            <div class="notification-popup" id="notificationPopup">
+              <div class="notification-header">
+                <h3>Notifications</h3>
+
+                <button id="clearNotifications">Clear All</button>
+              </div>
+
+              <!-- ITEM -->
+              <div class="notification-item unread">
+                <div class="notification-icon">🛍️</div>
+
+                <div class="notification-content">
+                  <h4>Order Confirmed</h4>
+
+                  <p>Your Nike Air Max order has been confirmed.</p>
+                </div>
+              </div>
+
+              <!-- ITEM -->
+              <div class="notification-item unread">
+                <div class="notification-icon">🚚</div>
+
+                <div class="notification-content">
+                  <h4>Shipping Update</h4>
+
+                  <p>Your package is now on delivery.</p>
+                </div>
+              </div>
+
+              <!-- ITEM -->
+              <div class="notification-item">
+                <div class="notification-icon">🎉</div>
+
+                <div class="notification-content">
+                  <h4>Special Discount</h4>
+
+                  <p>Flash Sale up to 80% OFF today only.</p>
+                </div>
+              </div>
+
+              <!-- ITEM -->
+              <div class="notification-item">
+                <div class="notification-icon">❤️</div>
+
+                <div class="notification-content">
+                  <h4>Wishlist Reminder</h4>
+
+                  <p>Your wishlist item is now discounted.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a href="help.html" class="top-link"> Help </a>
+
+          <a href="login.html" class="top-link"> Login </a>
+        </div>
+      </div>
+
+      <!-- NAVBAR -->
+      <div class="navbar">
+        <div class="logo">ShopVerse</div>
+
+        <div class="search-box">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Search products..."
+          />
+
+          <button onclick="window.location.href = 'explore.html'">
+            Search
+          </button>
+
+          <ul id="suggestions"></ul>
+        </div>
+
+        <div class="nav-icons">
+          <a href="cart.html">🛒</a>
+
+          <a href="favorites.html">❤️</a>
+
+          <a href="profile.html">👤</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>
+          Biggest Sale Up To
+          <span>80% OFF</span>
+        </h1>
+
+        <p>
+          Modern ecommerce landing page with beautiful UI, animation,
+          interactive buttons, product cards, categories, and premium ecommerce
+          design.
+        </p>
+
+        <div class="hero-buttons">
+          <button class="btn primary-btn">Shop Now</button>
+
+          <a href="explore.html" class="btn secondary-btn"> Explore </a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img
+          src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1200&auto=format&fit=crop"
+          alt="Product"
+        />
+      </div>
+    </section>
+
+    <!-- CATEGORIES -->
+    <section>
+      <div class="section-title">
+        <h2>Top Categories</h2>
+      </div>
+
+      <div class="categories">
+        <!-- ELECTRONICS -->
+        <a href="electronics.html" class="category-card">
+          <div class="icon">📱</div>
+          <h3>Electronics</h3>
+        </a>
+
+        <!-- FASHION -->
+        <a href="fashion.html" class="category-card">
+          <div class="icon">👕</div>
+          <h3>Fashion</h3>
+        </a>
+
+        <!-- GAMING -->
+        <a href="gaming.html" class="category-card">
+          <div class="icon">🎮</div>
+          <h3>Gaming</h3>
+        </a>
+
+        <!-- BEAUTY -->
+        <a href="beauty.html" class="category-card">
+          <div class="icon">💄</div>
+          <h3>Beauty</h3>
+        </a>
+      </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section>
+      <div class="section-title">
+        <h2>Trending Products</h2>
+      </div>
+
+      <div class="products-grid">
+        <!-- PRODUCT -->
+        <div class="product-card">
+          <img
+            src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1200&auto=format&fit=crop"
+            alt="Nike Air Max"
+          />
+
+          <div class="product-content">
+            <h3>Nike Air Max</h3>
+
+            <div class="price">$120</div>
+
+            <button
+              class="product-btn"
+              onclick="window.location.href = 'cart.html'"
+            >
+              Add To Cart
+            </button>
+          </div>
+        </div>
+
+        <!-- PRODUCT -->
+        <div class="product-card">
+          <img
+            src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=1200&auto=format&fit=crop"
+            alt="iPhone Premium"
+          />
+
+          <div class="product-content">
+            <h3>iPhone Premium</h3>
+
+            <div class="price">$999</div>
+
+            <button
+              class="product-btn"
+              onclick="window.location.href = 'cart.html'"
+            >
+              Add To Cart
+            </button>
+          </div>
+        </div>
+
+        <!-- PRODUCT -->
+        <div class="product-card">
+          <img
+            src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1200&auto=format&fit=crop"
+            alt="Wireless Headphones"
+          />
+
+          <div class="product-content">
+            <h3>Wireless Headphones</h3>
+
+            <div class="price">$80</div>
+
+            <button
+              class="product-btn"
+              onclick="window.location.href = 'cart.html'"
+            >
+              Add To Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <h2>ShopVerse Ecommerce</h2>
+
+      <p>Modern Ecommerce Website Design</p>
+    </footer>
+
+    <!-- SCROLL TOP -->
+    <div class="scroll-top" id="scrollTop">↑</div>
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Fashion Products - ShopVerse</title>
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="explore.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="topbar">
+        <div class="top-left">
+          <a href="index.html" class="top-link">Home</a>
+
+          <a href="seller-center.html" class="top-link"> Seller Center </a>
+
+          <a href="help.html" class="top-link">Help</a>
+        </div>
+
+        <div class="top-right">
+          <a href="login.html" class="top-link">Login</a>
+        </div>
+      </div>
+
+      <!-- NAVBAR -->
+      <div class="navbar">
+        <div class="logo">ShopVerse</div>
+
+        <div class="search-box">
+          <input type="text" placeholder="Search fashion products..." />
+
+          <button id="searchBtn">Search</button>
+        </div>
+
+        <div class="nav-icons">
+          <a href="favorites.html">❤️</a>
+
+          <a href="cart.html">🛒</a>
+
+          <a href="profile.html">👤</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="explore-container">
+      <!-- SIDEBAR -->
+      <aside class="sidebar">
+        <h2>Filter</h2>
+
+        <div class="filter-box">
+          <h3>Fashion Category</h3>
+
+          <label><input type="checkbox" /> Hoodies</label>
+
+          <label><input type="checkbox" /> Shoes</label>
+
+          <label><input type="checkbox" /> Jackets</label>
+
+          <label><input type="checkbox" /> Accessories</label>
+        </div>
+
+        <div class="filter-box">
+          <h3>Price</h3>
+
+          <label><input type="checkbox" /> Under $50</label>
+
+          <label><input type="checkbox" /> $50 - $150</label>
+
+          <label><input type="checkbox" /> $150+</label>
+        </div>
+      </aside>
+
+      <!-- PRODUCTS -->
+      <section class="products-section">
+        <div class="explore-header">
+          <h1>Fashion Collection 👕</h1>
+
+          <p>Discover trendy fashion products with modern streetwear style.</p>
+        </div>
+
+        <div class="products-grid">
+          <!-- PRODUCT -->
+          <div class="product-card">
+            <img
+              src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=1200&auto=format&fit=crop"
+              alt=""
+            />
+
+            <div class="product-content">
+              <h3>Oversized T-Shirt</h3>
+
+              <div class="price">$35</div>
+
+              <p>Comfortable oversized shirt with premium cotton material.</p>
+
+              <button class="product-btn">Add To Cart</button>
+            </div>
+          </div>
+
+          <!-- PRODUCT -->
+          <div class="product-card">
+            <img
+              src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?q=80&w=1200&auto=format&fit=crop"
+              alt=""
+            />
+
+            <div class="product-content">
+              <h3>Streetwear Hoodie</h3>
+
+              <div class="price">$60</div>
+
+              <p>Warm hoodie with minimalist modern design.</p>
+
+              <button class="product-btn">Add To Cart</button>
+            </div>
+          </div>
+
+          <!-- PRODUCT -->
+          <div class="product-card">
+            <img
+              src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1200&auto=format&fit=crop"
+              alt=""
+            />
+
+            <div class="product-content">
+              <h3>Nike Sneakers</h3>
+
+              <div class="price">$120</div>
+
+              <p>Stylish sneakers perfect for casual daily outfits.</p>
+
+              <button class="product-btn">Add To Cart</button>
+            </div>
+          </div>
+
+          <!-- PRODUCT -->
+          <div class="product-card">
+            <img
+              src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1200&auto=format&fit=crop"
+              alt=""
+            />
+
+            <div class="product-content">
+              <h3>Women Fashion Set</h3>
+
+              <div class="price">$95</div>
+
+              <p>Elegant fashion outfit with modern aesthetic look.</p>
+
+              <button class="product-btn">Add To Cart</button>
+            </div>
+          </div>
+
+          <!-- PRODUCT -->
+          <div class="product-card">
+            <img
+              src="https://images.unsplash.com/photo-1523398002811-999ca8dec234?q=80&w=1200&auto=format&fit=crop"
+              alt=""
+            />
+
+            <div class="product-content">
+              <h3>Denim Jacket</h3>
+
+              <div class="price">$80</div>
+
+              <p>Classic denim jacket with premium finishing.</p>
+
+              <button class="product-btn">Add To Cart</button>
+            </div>
+          </div>
+
+          <!-- PRODUCT -->
+          <div class="product-card">
+            <img
+              src="https://images.unsplash.com/photo-1506629905607-d9f4c4f1c1b7?q=80&w=1200&auto=format&fit=crop"
+              alt=""
+            />
+
+            <div class="product-content">
+              <h3>Luxury Watch</h3>
+
+              <div class="price">$150</div>
+
+              <p>Elegant watch design suitable for formal outfit.</p>
+
+              <button class="product-btn">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- JAVASCRIPT -->
+    <script src="explore.js"></script>
+  </body>
+</html>
