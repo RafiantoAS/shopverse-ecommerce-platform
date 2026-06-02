@@ -1,1 +1,1 @@
-# project-webverse
+# ShopVerse Ecommerce Platform
