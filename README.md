@@ -12,7 +12,7 @@ The application provides users with various ecommerce features such as product e
 
 Add your GitHub Pages link here:
 
-https://rafiantoas.github.io/blog-preview-card-ui/
+https://rafiantoas.github.io/shopverse-ecommerce-platform/
 
 ## Features
 
