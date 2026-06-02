@@ -8,6 +8,12 @@ ShopVerse is a frontend ecommerce web application designed to simulate the exper
 
 The application provides users with various ecommerce features such as product exploration, category-based shopping, favorites management, shopping cart simulation, seller center access, notifications, customer support pages, and responsive layouts.
 
+## Live Demo
+
+Add your GitHub Pages link here:
+
+https://rafiantoas.github.io/blog-preview-card-ui/
+
 ## Features
 
 - Product Search with Suggestions
